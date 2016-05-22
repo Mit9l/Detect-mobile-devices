@@ -1,0 +1,7 @@
+Проверка на мобильноу устройство осн. на touch событие
+
+var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0)); //check mobile devices
+
+	if (isTouch) {
+		console.log('mobile devices')
+	}
